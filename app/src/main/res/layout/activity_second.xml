@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ShortNote.alihamza.shortnotes.SecondActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textinput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/HintText"
+        android:layout_marginTop="16dp">
+        <EditText
+            android:id="@+id/name_text_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editTextTitle"
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="12dp"
+            android:inputType="text"
+            android:imeOptions="actionNext"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textinput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/HintText"
+        android:layout_marginTop="16dp">
+        <EditText
+            android:id="@+id/defination_text_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editTextExplanation"
+            android:textColor="@android:color/background_dark"
+            android:layout_margin="12dp"
+            android:inputType="text"
+            android:imeOptions="actionDone"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:padding="8dp"
+        android:text="Save"
+        android:textAlignment="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_weight="0"
+        android:elevation="6dp"/>
+   <com.google.android.gms.ads.AdView
+       android:layout_gravity="bottom"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/adView"
+       app:adSize="BANNER"
+       app:adUnitId="@string/banner_ad_unit_id">
+
+   </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

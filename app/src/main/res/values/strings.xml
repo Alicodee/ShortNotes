@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Short Notes</string>
+    <string name="editTextExplanation">Details</string>
+    <string name="editTextTitle">Title</string>
+    <string name="default_defination">iu15m2ba013</string>
+    <string name="default_title">Ali</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1089407851568165/9893651252</string>
+    <string name="admob_interstitial_id">ca-app-pub-1089407851568165/2450275502
+</string>
+    <string name="video_ad_unit_id">ca-app-pub-1089407851568165/9041225276</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>
